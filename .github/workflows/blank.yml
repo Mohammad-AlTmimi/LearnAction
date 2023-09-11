@@ -41,5 +41,5 @@ jobs:
         echo ${{github.actor}}
         pwd 
         ls
-      - name: 
-        run:  cat /etc/lsb-release 
+      - name : Show Ubuntu 
+        run :  cat /etc/lsb-release 
