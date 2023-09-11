@@ -42,4 +42,4 @@ jobs:
         pwd 
         ls
       - name: 
-        run:  cat /etc/lsb_release 
+        run:  cat /etc/lsb-release 
