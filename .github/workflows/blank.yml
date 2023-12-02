@@ -38,9 +38,9 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - run: |
-        echo Hello from Github 
-        echo ${{github.actor}}
-        pwd 
-        ls
+          echo Hello from Github 
+          echo ${{github.actor}}
+          pwd 
+          ls
       - name: Show Ubuntu 
         run:  cat /etc/lsb-release 
